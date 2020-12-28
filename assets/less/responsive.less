@@ -262,7 +262,6 @@
               border-radius: 100%;
               z-index: 2;
               position: absolute;
-              right: 3px;
             }
           }
         }
@@ -390,10 +389,6 @@
         &__icon {
           .cart__icon {
             margin-left: 10px;
-
-            .cart-quantity {
-              right: -5px;
-            }
           }
         }
       }
@@ -519,6 +514,19 @@
   }
 
   .news {
+    &__block {
+      &--title {
+        font-size: 34px;
+        line-height: 51px;
+        font-weight: 600;
+      }
+
+      &--shadow {
+        font-size: 70px;
+        font-weight: 600;
+      }
+    }
+
     &__panel {
       &__inner {
         margin: 0 auto 30px auto;
@@ -563,12 +571,28 @@
   .header__bottom {
     .menu {
       .hidden-menu {
+        &__btn {
+          width: 20%;
+        }
+
+        &__logo {
+          width: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            max-width: 100%;
+          }
+        }
+
         &__icon {
+          width: 30%;
+
           .cart__icon {
             margin-left: 10px;
 
-            .cart-quantity {
-              right: 0;
+            img {
             }
           }
         }
@@ -610,9 +634,21 @@
     &--left {
       margin: 0 auto;
 
+      &--text {
+        width: 90%;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
       &--img {
         margin: 10px;
         overflow: hidden;
+        height: 400px;
+
+        img {
+          height: 50%;
+        }
       }
     }
 
@@ -626,8 +662,9 @@
         margin: 0 auto;
 
         &--text {
-          left: 200px;
-          top: 400px;
+          left: 50%;
+          top: 37%;
+          transform: translate(-50%, -37%);
         }
       }
 
@@ -637,14 +674,14 @@
         margin: 0 auto;
 
         &--text {
-          left: 240px;
-          bottom: 50px;
+          left: 50%;
+          bottom: 4%;
+          transform: translate(-50%, -4%);
         }
       }
 
       &--img {
-        width: 100%;
-        height: 510px;
+        height: 400px;
         margin: 10px;
         overflow: hidden;
 
@@ -652,7 +689,7 @@
           width: 70%;
           margin: 0 auto;
           position: absolute;
-          top: 50px;
+          top: 20px;
         }
       }
     }
@@ -715,8 +752,44 @@
   }
 
   .news {
+    &__block {
+      &--title {
+        font-size: 20px;
+        line-height: 30px;
+      }
+
+      &--shadow {
+        font-size: 40px;
+      }
+    }
+
     &__panel {
       padding: 0 10px 0 10px;
+    }
+  }
+
+  .sign-up {
+    &__block {
+      &__form {
+        padding: 0 0 0 0;
+        border: none;
+        border-radius: 0;
+        background: none;
+
+        form {
+          display: block;
+
+          input {
+            width: 100%;
+            border-radius: 58px;
+            margin-bottom: 20px;
+          }
+
+          button {
+            margin: 0 auto;
+          }
+        }
+      }
     }
   }
 
@@ -729,8 +802,18 @@
       margin: 0 0 30px 15px;
     }
   }
-}
 
-//@media all and (max-width: 320px) {
-//
-//}
+  .copy-right {
+
+    &__detail {
+      font-size: 10px;
+      line-height: 15px;
+    }
+
+    &__payment {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
