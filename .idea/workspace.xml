@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc15fef5-054c-4e3d-86af-47c82debe277" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/less/base/_footer.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/base/_footer.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/less/base/_header.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/base/_header.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/less/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/less/responsive.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/responsive.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/less/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +74,8 @@
       <workItem from="1609149983395" duration="182000" />
       <workItem from="1609241777546" duration="2770000" />
       <workItem from="1609294042463" duration="102000" />
-      <workItem from="1610350214357" duration="4696000" />
+      <workItem from="1610350214357" duration="5189000" />
+      <workItem from="1610440118502" duration="1402000" />
     </task>
     <servers />
   </component>
